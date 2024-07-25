@@ -18,6 +18,8 @@ module.exports = {
     'simple-import-sort/exports': 'warn',
     indent: ['warn', 2],
     semi: ['warn', 'never'],
-    quotes: ['warn', 'single']
+    quotes: ['warn', 'single'],
+    'vue/no-v-for-template-key-on-child': 'off',
+    'vue/multi-word-component-names': 'off'
   }
 }
